@@ -10,7 +10,7 @@
 <!-- 	head bar -->
 	<div class="header">
 		<div class="top">
-			<div class="menu">
+			<div id='menu' class="menu" >
 				<i class="fas fa-bars"></i>
 			</div>
 
@@ -24,16 +24,208 @@
 		</div>
 <!-- ------------------------------------------- -->
 		<div class="icon">
-			<i class="fas fa-video"></i>
-			<i class="fas fa-th-list"></i>
-			<i class="fas fa-bell"></i>
-			<div class="user1"><i class="fas fa-user-circle"></i></div>
+			<div id="createvideoicon"  class="not">
+				<i class="fas fa-video"></i>
+				<div id="createvideo" class="createvideo">
+					<div>
+						<i class="fas fa-home"></i>
+						<div>Home</div>
+					</div>
+					<div>
+						<i class="fas fa-fire"></i>
+						<div>Trending</div>
+					</div>
+				</div>
+			</div>
+			<div id="appsicon" class="not">
+				<i class="fas fa-th-list"></i>
+				<div id="apps" class="apps">
+					<div>
+						<i class="fas fa-home"></i>
+						<div>Home</div>
+					</div>
+					<hr>
+					<div>
+						<i class="fas fa-home"></i>
+						<div>Home</div>
+					</div>
+					<div>
+						<i class="fas fa-home"></i>
+						<div>Home</div>
+					</div>
+					<hr>
+					<div>
+						<i class="fas fa-home"></i>
+						<div>Home</div>
+					</div>
+					<div>
+						<i class="fas fa-home"></i>
+						<div>Home</div>
+					</div>
+				</div>
+			</div>
+			<div id="notificationicon" class="not">
+				<i class="fas fa-bell"></i>
+				<div id="notification" class="notification">
+					<div>
+						<div>Notifications</div>
+						<i class="fas fa-cog"></i>
+					</div>
+					<div>
+						<i class="fas fa-bell"></i>
+						<div>Your notifications live here</div>
+						<div>Subscribe to your favourite channels to receive notifications about their latest videos.</div>
+					</div>
+				</div>
+			</div>
+			<div id="accounticon" class="user1 not">
+				<i class="fas fa-user-circle"></i>
+				<div id ='account' class="account">
+					
+				</div>
+			</div>
 		</div>
 	</div>
 	<!-- main body -->
 	<div class="main">
-		
+		<!-- small head bar -->
+		<div id='smallsidebar' class="sidebarsmall">
+			<div>
+				<i class="fas fa-home"></i>
+				<div>Home</div>
+			</div>
+			<div>
+				<i class="fas fa-fire"></i>
+				<div>Trending</div>
+			</div>
+			<div>
+				<i class="fab fa-youtube"></i>
+				<div>Subsciptions</div>
+			</div>
+			<div>
+				<i class="fas fa-book"></i>
+				<div>Library</div>
+			</div>
+		</div>
+		<!-- ----------big side bar -->
+		<div id='bigsidebar' class="sidebarbig">
+			<div>
+				<i class="fas fa-home"></i>
+				<div>Home</div>
+			</div>
+			<div>
+				<i class="fas fa-fire"></i>
+				<div>Trending</div>
+			</div>
+			<div>
+				<i class="fab fa-youtube"></i>
+				<div>Subsciptions</div>
+			</div>
+			<hr>
+			<div>
+				<i class="fas fa-book"></i>
+				<div>Library</div>
+			</div>
+			<div>
+				<i class="fas fa-history"></i>
+				<div>Hidtory</div>
+			</div>
+			<div>
+				<i class="fas fa-file-video"></i>
+				<div>Yours videos</div>
+			</div>
+			<div>
+				<i class="fas fa-clock"></i>
+				<div>Watch later</div>
+			</div>
+			<div>
+				<i class="fas fa-thumbs-up"></i>
+				<div>Liked videos</div>
+			</div>
+			<div>
+				<i class="fas fa-chevron-down"></i>
+				<div>Show more</div>
+			</div>
+			<hr>
+			<div>
+				<div>SUBSCRIPTIONS</div>
+				<div>
+					<div>
+						<div class="avatar1"></div>
+						<div>CodersX</div>
+					</div>
+					<div>
+						<div class="avatar1"></div>
+						<div>CodersX</div>
+					</div>
+					<div>
+						<div class="avatar1"></div>
+						<div>CodersX</div>
+					</div>
+					<div>
+						<div class="avarta1"></div>
+						<div>CodersX</div>
+					</div>
+					<div>
+						<i class="fas fa-chevron-down"></i>
+						<div>Show 10 more</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<div>MORE FROM YOUTUBE</div>
+				<div>
+					<div>
+						<i class="fab fa-youtube"></i>
+						<div>YouTube Premium</div>
+					</div>
+					<div>
+						<i class="fas fa-film"></i>
+						<div>Movies & shows</div>
+					</div>
+					<div>
+						<i class="fas fa-gamepad"></i>
+						<div>Gaming</div>
+					</div>
+					<div>
+						<i class="fas fa-podcast"></i>
+						<div>Live</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<div>
+					<i class="fas fa-cog"></i>
+					<div>Setting</div>
+				</div>
+				<div>
+					<i class="fas fa-flag"></i>
+					<div>Report history</div>
+				</div>
+				<div>
+					<i class="fas fa-question-circle"></i>
+					<div>Help</div>
+				</div>
+				<div>
+					<i class="fas fa-comment-alt"></i>
+					<div>Send feedback</div>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<a href="#">About</a>
+				<a href="#">Terms</a>
+				<a href="#">About</a>
+				<a href="#">Terms</a>
+				<a href="#">About</a>
+				<a href="#">Terms</a>
+				<div>&copy; 2020 Google LLC</div>
+			</div>
+		</div>
 	</div>
 
+<script src="js.js"></script>
 </body>
 </html>
