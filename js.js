@@ -1,6 +1,7 @@
 var menu = document.getElementById('menu');
 var big = document.getElementById('bigsidebar');
 var small = document.getElementById('smallsidebar')
+
 var isOpen = false;
 menu.addEventListener('click', toggle)
 function toggle(){
@@ -17,7 +18,7 @@ function toggle(){
 }
 
 ////////////////////////////////
-var createvideoicon = document.getElementById('createvideoicon');
+var createvideoicon = document.getElementById("createvideoicon");
 var appsicon = document.getElementById('appsicon');
 var notificationicon = document.getElementById('notificationicon');
 var accounticon = document.getElementById('accounticon');
@@ -26,50 +27,66 @@ var apps = document.getElementById('apps');
 var notification = document.getElementById('notification');
 var account = document.getElementById('account');
 
-var isOpen1=isOpen2=isOpen3=isOpen4 = true;
+function HideandUNhideObj(ThisObj) {
 
-createvideoicon.addEventListener('click', toggle1)
-appsicon.addEventListener('click', toggle2)
-notificationicon.addEventListener('click', toggle3)
-accounticon.addEventListener('click', toggle4)
+ if (ThisObj === "createvideo") {
+    var div = "apps";
+    var divx = "notification";
+    var divy = 'account';
+  }  else if(ThisObj ==="apps") {
+     div = "createvideo";
+     divx = "notification";
+     divy = 'account';
+  }
+ else if(ThisObj==='notification') {
+     div ="createvideo";
+     divx= "apps";
+     divy = 'account';
+  } 
+  else {
+  	div ="createvideo";
+     divx= "apps";
+     divy = 'notification';
+  }
+  nav = document.getElementById(ThisObj).style;
+  if (nav.display === "block") {
+    nav.display = 'none';
+  } else {
+    nav.display = 'block';
+    document.getElementById(div).style.display = "none";
+    document.getElementById(divx).style.display= "none";
+    document.getElementById(divy).style.display= "none";
+  }
+}
 
-function toggle1(){
-	if(isOpen1 === false){
-		createvideo.style.display = 'none';
-		isOpen1 = true;
-	}
-	else if(isOpen1 === true){
-		createvideo.style.display = 'block';
-		isOpen1 = false;
-	}
-}
-function toggle2(){
-	if(isOpen2 === false){
-		apps.style.display = 'none';
-		isOpen2 = true;
-	}
-	else if(isOpen2 === true){
-		apps.style.display = 'block';
-		isOpen2 = false;
-	}
-}
-function toggle3(){
-	if(isOpen3 === false){
-		notification.style.display = 'none';
-		isOpen3 = true;
-	}
-	else if(isOpen3 === true){
-		notification.style.display = 'block';
-		isOpen3 = false;
-	}
-}
-function toggle4(){
-	if(isOpen4 === false){
-		account.style.display = 'none';
-		isOpen4 = true;
-	}
-	else if(isOpen4 === true){
-		account.style.display = 'block';
-		isOpen4 = false;
-	}
+createvideo.addEventListener('click', function (event) {  
+            event.stopPropagation(); 
+        }); 
+notification.addEventListener('click', function (event) {  
+            event.stopPropagation(); 
+        }); 
+apps.addEventListener('click', function (event) {  
+            event.stopPropagation(); 
+        }); 
+account.addEventListener('click', function (event) {  
+            event.stopPropagation(); 
+        }); 
+   
+window.onclick = function(event){
+	if(event.target === createvideoicon ) {
+     	HideandUNhideObj('createvideo')
+		}else if (event.target === appsicon){
+			HideandUNhideObj('apps')		 
+		}
+		else if (event.target === notificationicon){	
+			 HideandUNhideObj('notification')
+		}
+		else if (event.target === accounticon){
+			HideandUNhideObj('account')
+		} else {
+			 createvideo.style.display = "none";
+			 apps.style.display = "none";
+			 notification.style.display = "none";
+			 account.style.display = "none";
+		}
 }

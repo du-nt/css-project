@@ -5,24 +5,29 @@ body{
 .header{
 	margin: 5px 10px;
 	display: flex;
-	background-color: #fefdfd;
+	background-color: #fff;
 	padding: 10px;
 	height: 4vh;
 	align-items: center;
 	justify-content: space-between;
 }
 .menu{
-	font-size: 1.2rem;
+	font-size: 18px;
 	cursor: pointer;
 	padding-top: 2.1px;
 	color: #606060;
+	margin-left: 3px;
 }
 .logo{
 	height: inherit;
+	width: 90px;
     overflow: hidden;
     margin-left: 30px;
-    flex-grow: 1;
     cursor: pointer;
+    background-image: url('https://av.watch.impress.co.jp/img/avw/docs/1078/251/yl2.jpg');
+    background-repeat: no-repeat;
+    background-size: 142%;
+    background-position: center;
 }
 .image1{
     transform: scale(2.4) translate(8px, 0px);
@@ -32,15 +37,14 @@ body{
 	display: flex;
 	align-items: center;
 	height: inherit;
-	width: 170px;
-	justify-content: space-between;
+	flex: 0 0 170px;
 }
 .icon{
 	display: flex;
 	align-items: center;
-	width: 12%;
+	width: 200px;
 	justify-content: space-around;
-	font-size: 1.2rem;
+	font-size: 18px;
 	color: #606060;
 }
 .fas{
@@ -48,7 +52,7 @@ body{
 }
 .user1{
 	color: #1376ce;
-	font-size: 1.85rem;
+	font-size: 26px;
 	cursor: pointer;
 }
 .not{
@@ -56,39 +60,94 @@ body{
 }
 .createvideo{
 	position: absolute;
-	top: 100%;
-	width: 160px;
+	top: 130%;
+	left: -10px;
+	width: 170px;
 	z-index: 5;
-	background-color: #0f0;
+	background-color: #fff;
 	display: none;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	color: #6f6f6f;
+	font-size: 18px;
+}
+.bigpart2{
+	display: flex;
+	padding: 15px 18px;
+}
+.bigpart2:hover{
+	background-color: #f2f2f2;
 }
 .apps{
 	position: absolute;
-	top: 100%;
-	right: 0;
+	top: 130%;
+	right: -10px;
 	width: 220px;
 	z-index: 5;
 	display: none;
-	background-color: #f00;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	color: #6f6f6f;
+	font-size: 18px;
+}
+hr{
+	border-top: .2px solid #e5e5e5;
 }
 .notification{
 	position: absolute;
-	top: 100%;
-	right: 0;
+	top: 130%;
+	right: -10px;
 	width: 440px;
-	height: 600px;
+	height: 550px;
 	z-index: 5;
-	background-color: #00f;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	color: #6f6f6f;
+	font-size: 18px;
 	display: none;
+}
+.no1{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 10px 16px;
+	border-bottom: 1px solid #e5e5e5;
+	height: 4%;
+}
+.no2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 96%;
+}
+.bigbig{
+	font-size: 100px;
+	color: #ccc;
+}
+.t1{
+	text-align: center;
+	font-weight: bolder;
+	margin: 30px 0 10px;
+}
+.t2{
+	text-align: center;
+	padding: 0 50px;
+	font-size: 16px;
 }
 .account{
 	position: absolute;
-	top: 100%;
-	right: 0;
+	top: 130%;
+	right: -10px;
 	width: 280px;
 	height: 700px;
 	z-index: 5;
-	background-color: #777;
+	background-color: #f00;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	color: #6f6f6f;
+	font-size: 18px;
 	display: none;
 }
 .search{
@@ -101,7 +160,7 @@ body{
 .search-input{
 	height: inherit;
 	width: 38%;
-	font-size: 1.3rem;
+	font-size: 16px;
     padding: 5px 20px;
     border: 1px solid #d3d3d3;
     border-radius: 3px 0 0 3px;
@@ -114,13 +173,13 @@ body{
 	box-shadow: 0px 0px 7px 1px #7ebfec;
 	outline: none;	
 	width: 38%;
-	font-size: 1.3rem;
+	font-size: 16px;
     padding: 4px 19px;
     border-radius: 3px;
     box-sizing: border-box;
 }
 .btn{
-	width: 75px;
+	width: 65px;
 	cursor: pointer;
 	height: inherit;
 	border-radius:  0 3px 3px 0;
@@ -128,7 +187,7 @@ body{
 	border-left: none;
 	color: #818181;
 	background-color: #f8f8f8;
-	font-size: 1rem;
+	font-size: 14px;
 }
 .btn:focus {
   outline: none;
@@ -144,23 +203,156 @@ body{
 	height: 100vh;
 	width: 100vw;
 	position: relative;
+	display: flex;
 }
 .sidebarsmall{
-	background-color: #eee;
-	height: 100vh;
+	background-color: #fff;
+	height: 100%;
 	width: 72px;
+	display: none;
+	color: #606060;
+	font-size: 12px;
+	text-align: center;
+}
+.iconbar{
+	font-size: 18px;
+	margin-bottom: 6px;
+}
+.smallpart{
+	padding: 14px 0;
+	cursor: pointer;
+}
+.smallpart:hover{
+	background-color: #f2f2f2;
+}
+.active{
+	color: red;
+}
+.active2{
+	color: red;
+	background-color: #e5e5e5;
 }
 .sidebarbig{
-	width: 240px;
-	height: 100vh;
-	background-color: #ddd;
-	position: absolute;
-	top: 0;
+	flex: 0 0 220px;
+	height: 100%;
+	background-color: #fff;	
 	overflow-y: scroll;
+	color: #606060;
+	font-size: 16px;
+	padding-top: 3px;
+}
+.bigpart{
+	display: flex;
+	padding: 9.5px 20.5px;
+	align-items: center;
+	cursor: pointer;
+}
+.bigpart:hover{
+	background-color: #f2f2f2;
+}
+.bigicon{
+	margin-right: 30px;
+	width: 20.25px;
+	text-align: center;
+	font-size: 18px;
+}
+.bigicon2{
+	margin-right: 15px;
+	width: 20.25px;
+	text-align: center;
+	font-size: 18px;
+}
+.cl{
+	color: red;
 }
 .avatar1{
 	width: 20px;
 	height: 20px;
-	background-color: #f00;
+	background-image: url('https://stickershop.line-scdn.net/stickershop/v1/product/583/LINEStorePC/main.png;compress=true');
+	background-repeat: no-repeat;
+	background-size: 130%;
+	background-position: -3px 0;
 	border-radius: 50%;
+}
+a{
+	text-decoration: none;
+	color: #737373;
+}
+.part1{
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 10px;
+}
+.part2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.ab{
+	padding: 20px 20.5px;
+
+}
+.copy{
+	padding: 24px 0;
+	color: #909090
+}
+/*content style*/
+.content{
+	flex-grow: 1;
+	margin: 0 24px;
+	background-color: #f9f9f9;
+}
+.recommend{
+	margin: 26px 0 0 8px;
+	font-size: 22px;
+}
+.grid-container {
+	margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 240px;
+  margin: 0 8px 40px;
+  flex: 1 1 200px;
+}
+.imageitem{
+	width: 100%;
+	height: 70%;
+	background-color: red;
+	background-image: url('https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.des{
+	display: flex;
+}
+.userlogo{
+	flex: 0 0 30px;
+	height: 30px;
+	background-color: red;
+	border-radius: 50%;
+	background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Avatar_Aang.png/220px-Avatar_Aang.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 5px 7px 0 0;
+}
+.info{
+	flex-grow: 1;
+}
+.name{
+	font-weight: 550;
+	color: #030303;
+}
+.view{
+	display: flex;
+}
+.time{
+	margin-left: 4px;
+}
+.user{
+	font-weight: 80;
+	color: #606060;
 }
