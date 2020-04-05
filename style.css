@@ -74,6 +74,7 @@ body{
 .bigpart2{
 	display: flex;
 	padding: 15px 18px;
+	cursor: pointer;
 }
 .bigpart2:hover{
 	background-color: #f2f2f2;
@@ -140,15 +141,73 @@ hr{
 	position: absolute;
 	top: 130%;
 	right: -10px;
-	width: 280px;
-	height: 700px;
+	width: 320px;
 	z-index: 5;
-	background-color: #f00;
+	background-color: #fff;
 	border: 1px solid #e5e5e5;
 	border-top: none;
 	color: #6f6f6f;
 	font-size: 18px;
 	display: none;
+	overflow-y: scroll;
+	cursor: auto;
+}
+.f1{
+	display: flex;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 15px 10px;
+}
+.f2{
+	border-bottom: 1px solid #e5e5e5;
+	padding: 10px 0;
+}
+.nor{
+	display: flex;
+	padding: 7px 20px;
+	align-items: center;
+	cursor: pointer;
+}
+.sps{
+	display: flex;
+	padding: 7px 20px;
+	cursor: pointer;
+}
+.spsi{
+	margin-left: auto;
+}
+.bg{
+	margin-right: 20px;
+	width: 20.25px;
+	text-align: center;
+	font-size: 18px;
+}
+.ens{
+	margin: 6px 0;
+	padding: 8px 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.ens:hover{
+	background-color: #f2f2f2;
+}
+.nor:hover{
+	background-color: #f2f2f2;
+}
+.sps:hover{
+	background-color: #f2f2f2;
+}
+.uslogo{
+	background-color: #00579c;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.un{
+	font-weight: bolder;
+}
+.ua{
+	color: #065fd4;
 }
 .search{
 	flex-grow: 1;
