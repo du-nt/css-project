@@ -1,8 +1,8 @@
-body{
+body {
 	margin: 0;
 }
 /*head bar*/
-.header{
+.header {
 	margin: 5px 10px;
 	display: flex;
 	background-color: #fff;
@@ -11,35 +11,35 @@ body{
 	align-items: center;
 	justify-content: space-between;
 }
-.menu{
+.menu {
 	font-size: 18px;
 	cursor: pointer;
 	padding-top: 2.1px;
 	color: #606060;
 	margin-left: 3px;
 }
-.logo{
+.logo {
 	height: inherit;
 	width: 90px;
-    overflow: hidden;
-    margin-left: 30px;
-    cursor: pointer;
-    background-image: url('https://av.watch.impress.co.jp/img/avw/docs/1078/251/yl2.jpg');
-    background-repeat: no-repeat;
-    background-size: 142%;
-    background-position: center;
+	overflow: hidden;
+	margin-left: 30px;
+	cursor: pointer;
+	background-image: url("https://av.watch.impress.co.jp/img/avw/docs/1078/251/yl2.jpg");
+	background-repeat: no-repeat;
+	background-size: 142%;
+	background-position: center;
 }
-.image1{
-    transform: scale(2.4) translate(8px, 0px);
-    height: 100%;
+.image1 {
+	transform: scale(2.4) translate(8px, 0px);
+	height: 100%;
 }
-.top{
+.top {
 	display: flex;
 	align-items: center;
 	height: inherit;
 	flex: 0 0 170px;
 }
-.icon{
+.icon {
 	display: flex;
 	align-items: center;
 	width: 200px;
@@ -47,18 +47,18 @@ body{
 	font-size: 18px;
 	color: #606060;
 }
-.fas{
+.fas {
 	cursor: pointer;
 }
-.user1{
+.user1 {
 	color: #1376ce;
 	font-size: 26px;
 	cursor: pointer;
 }
-.not{
+.not {
 	position: relative;
 }
-.createvideo{
+.createvideo {
 	position: absolute;
 	top: 130%;
 	left: -10px;
@@ -71,15 +71,15 @@ body{
 	color: #6f6f6f;
 	font-size: 18px;
 }
-.bigpart2{
+.bigpart2 {
 	display: flex;
 	padding: 15px 18px;
 	cursor: pointer;
 }
-.bigpart2:hover{
+.bigpart2:hover {
 	background-color: #f2f2f2;
 }
-.apps{
+.apps {
 	position: absolute;
 	top: 130%;
 	right: -10px;
@@ -92,10 +92,10 @@ body{
 	color: #6f6f6f;
 	font-size: 18px;
 }
-hr{
-	border-top: .2px solid #e5e5e5;
+hr {
+	border-top: 0.2px solid #e5e5e5;
 }
-.notification{
+.notification {
 	position: absolute;
 	top: 130%;
 	right: -10px;
@@ -109,35 +109,35 @@ hr{
 	font-size: 18px;
 	display: none;
 }
-.no1{
+.no1 {
 	display: flex;
 	justify-content: space-between;
 	padding: 20px 10px 16px;
 	border-bottom: 1px solid #e5e5e5;
 	height: 4%;
 }
-.no2{
+.no2 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	height: 96%;
 }
-.bigbig{
+.bigbig {
 	font-size: 100px;
 	color: #ccc;
 }
-.t1{
+.t1 {
 	text-align: center;
 	font-weight: bolder;
 	margin: 30px 0 10px;
 }
-.t2{
+.t2 {
 	text-align: center;
 	padding: 0 50px;
 	font-size: 16px;
 }
-.account{
+.account {
 	position: absolute;
 	top: 130%;
 	right: -10px;
@@ -152,96 +152,96 @@ hr{
 	overflow-y: scroll;
 	cursor: auto;
 }
-.f1{
+.f1 {
 	display: flex;
 	border-bottom: 1px solid #e5e5e5;
 	padding: 15px 10px;
 }
-.f2{
+.f2 {
 	border-bottom: 1px solid #e5e5e5;
 	padding: 10px 0;
 }
-.nor{
+.nor {
 	display: flex;
 	padding: 7px 20px;
 	align-items: center;
 	cursor: pointer;
 }
-.sps{
+.sps {
 	display: flex;
 	padding: 7px 20px;
 	cursor: pointer;
 }
-.spsi{
+.spsi {
 	margin-left: auto;
 }
-.bg{
+.bg {
 	margin-right: 20px;
 	width: 20.25px;
 	text-align: center;
 	font-size: 18px;
 }
-.ens{
+.ens {
 	margin: 6px 0;
 	padding: 8px 20px;
 	display: flex;
 	justify-content: space-between;
 }
-.ens:hover{
+.ens:hover {
 	background-color: #f2f2f2;
 }
-.nor:hover{
+.nor:hover {
 	background-color: #f2f2f2;
 }
-.sps:hover{
+.sps:hover {
 	background-color: #f2f2f2;
 }
-.uslogo{
+.uslogo {
 	background-color: #00579c;
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
 	margin-right: 10px;
 }
-.un{
+.un {
 	font-weight: bolder;
 }
-.ua{
+.ua {
 	color: #065fd4;
 }
-.search{
+.search {
 	flex-grow: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: inherit;
 }
-.search-input{
+.search-input {
 	height: inherit;
 	width: 38%;
 	font-size: 16px;
-    padding: 5px 20px;
-    border: 1px solid #d3d3d3;
-    border-radius: 3px 0 0 3px;
-    transition: all 0.3s;
-    box-sizing: border-box;
+	padding: 5px 20px;
+	border: 1px solid #d3d3d3;
+	border-radius: 3px 0 0 3px;
+	transition: all 0.3s;
+	box-sizing: border-box;
 }
-.search-input:focus{
+.search-input:focus {
 	height: inherit;
 	border: 2px solid #54a5e6b8;
 	box-shadow: 0px 0px 7px 1px #7ebfec;
-	outline: none;	
+	outline: none;
 	width: 38%;
 	font-size: 16px;
-    padding: 4px 19px;
-    border-radius: 3px;
-    box-sizing: border-box;
+	padding: 4px 19px;
+	border-radius: 3px;
+	box-sizing: border-box;
 }
-.btn{
+.btn {
 	width: 65px;
 	cursor: pointer;
 	height: inherit;
-	border-radius:  0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
 	border: 1px solid #d3d3d3;
 	border-left: none;
 	color: #818181;
@@ -249,22 +249,22 @@ hr{
 	font-size: 14px;
 }
 .btn:focus {
-  outline: none;
+	outline: none;
 }
 .btn:hover {
-  transition: all 0.3s;
-  background-color: #c6c6c6;
-  border-color: #c6c6c6;
-  color: #333;
+	transition: all 0.3s;
+	background-color: #c6c6c6;
+	border-color: #c6c6c6;
+	color: #333;
 }
-.main{
+.main {
 	background-color: #f9f9f9;
 	height: 100vh;
 	width: 100vw;
 	position: relative;
 	display: flex;
 }
-.sidebarsmall{
+.sidebarsmall {
 	background-color: #fff;
 	height: 100%;
 	width: 72px;
@@ -273,145 +273,143 @@ hr{
 	font-size: 12px;
 	text-align: center;
 }
-.iconbar{
+.iconbar {
 	font-size: 18px;
 	margin-bottom: 6px;
 }
-.smallpart{
+.smallpart {
 	padding: 14px 0;
 	cursor: pointer;
 }
-.smallpart:hover{
+.smallpart:hover {
 	background-color: #f2f2f2;
 }
-.active{
+.active {
 	color: red;
 }
-.active2{
+.active2 {
 	color: red;
 	background-color: #e5e5e5;
 }
-.sidebarbig{
+.sidebarbig {
 	flex: 0 0 220px;
 	height: 100%;
-	background-color: #fff;	
+	background-color: #fff;
 	overflow-y: scroll;
 	color: #606060;
 	font-size: 16px;
 	padding-top: 3px;
 }
-.bigpart{
+.bigpart {
 	display: flex;
-	padding: 9.5px 20.5px;
+	padding: 11.5px 20.5px;
 	align-items: center;
 	cursor: pointer;
 }
-.bigpart:hover{
+.bigpart:hover {
 	background-color: #f2f2f2;
 }
-.bigicon{
+.bigicon {
 	margin-right: 30px;
 	width: 20.25px;
 	text-align: center;
 	font-size: 18px;
 }
-.bigicon2{
+.bigicon2 {
 	margin-right: 15px;
 	width: 20.25px;
 	text-align: center;
 	font-size: 18px;
 }
-.cl{
+.cl {
 	color: red;
 }
-.avatar1{
+.avatar1 {
 	width: 20px;
 	height: 20px;
-	background-image: url('https://stickershop.line-scdn.net/stickershop/v1/product/583/LINEStorePC/main.png;compress=true');
+	background-image: url("https://stickershop.line-scdn.net/stickershop/v1/product/583/LINEStorePC/main.png;compress=true");
 	background-repeat: no-repeat;
 	background-size: 130%;
 	background-position: -3px 0;
 	border-radius: 50%;
 }
-a{
+a {
 	text-decoration: none;
 	color: #737373;
 }
-.part1{
+.part1 {
 	border-bottom: 1px solid #e5e5e5;
 	padding-bottom: 10px;
 }
-.part2{
+.part2 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #e5e5e5;
 }
-.ab{
+.ab {
 	padding: 20px 20.5px;
-
 }
-.copy{
+.copy {
 	padding: 24px 0;
-	color: #909090
+	color: #909090;
 }
 /*content style*/
-.content{
+.content {
 	flex-grow: 1;
 	margin: 0 24px;
 	background-color: #f9f9f9;
 }
-.recommend{
+.recommend {
 	margin: 26px 0 0 8px;
 	font-size: 22px;
 }
 .grid-container {
 	margin-top: 24px;
-  display: flex;
-  flex-wrap: wrap;
-  
+	display: flex;
+	flex-wrap: wrap;
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  height: 240px;
-  margin: 0 8px 40px;
-  flex: 1 1 200px;
+	background-color: rgba(255, 255, 255, 0.8);
+	height: 240px;
+	margin: 0 8px 40px;
+	flex: 1 1 200px;
 }
-.imageitem{
+.imageitem {
 	width: 100%;
 	height: 70%;
 	background-color: red;
-	background-image: url('https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png');
+	background-image: url("https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
-.des{
+.des {
 	display: flex;
 }
-.userlogo{
+.userlogo {
 	flex: 0 0 30px;
 	height: 30px;
 	background-color: red;
 	border-radius: 50%;
-	background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Avatar_Aang.png/220px-Avatar_Aang.png');
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Avatar_Aang.png/220px-Avatar_Aang.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 5px 7px 0 0;
 }
-.info{
+.info {
 	flex-grow: 1;
 }
-.name{
+.name {
 	font-weight: 550;
 	color: #030303;
 }
-.view{
+.view {
 	display: flex;
 }
-.time{
+.time {
 	margin-left: 4px;
 }
-.user{
+.user {
 	font-weight: 80;
 	color: #606060;
 }

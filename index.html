@@ -1,691 +1,1072 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Css</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-	<link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<body>
-<!-- 	head bar -->
-	<div class="header">
-		<div class="top">
-			<div id='menu' class="menu" >
-				<i class="fas fa-bars"></i>
-			</div>
+	<head>
+		<title>Css</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+	</head>
+	<body>
+		<!-- 	head bar -->
+		<div class="header">
+			<div class="top">
+				<div id="menu" class="menu">
+					<i class="fas fa-bars"></i>
+				</div>
 
-			<a class="logo" href="#">
-			</a>
-		</div>
-<!-- ----------------------------------------- -->
-		<div class="search">
-			<input class="search-input" type="text" placeholder="Search">
-			<button class="btn"><i class="fas fa-search"></i></button>
-		</div>
-<!-- ------------------------------------------- -->
-		<div class="icon">
-			<div  class="not">
-				<i id="createvideoicon"  class="fas fa-video"></i>
-				<div id="createvideo" class="createvideo">
-					<div class="bigpart2">
-						<i class="bigicon2 fas fa-cloud-upload-alt"></i>
-						<div>Upload video</div>
-					</div>
-					<div class="bigpart2">
-						<i class="bigicon2 fas fa-signal"></i>
-						<div>Go live</div>
+				<a class="logo" href="#"> </a>
+			</div>
+			<!-- ----------------------------------------- -->
+			<div class="search">
+				<input class="search-input" type="text" placeholder="Search" />
+				<button class="btn"><i class="fas fa-search"></i></button>
+			</div>
+			<!-- ------------------------------------------- -->
+			<div class="icon">
+				<div class="not">
+					<i id="createvideoicon" class="fas fa-video"></i>
+					<div id="createvideo" class="createvideo">
+						<div class="bigpart2">
+							<i class="bigicon2 fas fa-cloud-upload-alt"></i>
+							<div>Upload video</div>
+						</div>
+						<div class="bigpart2">
+							<i class="bigicon2 fas fa-signal"></i>
+							<div>Go live</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="not">
-				<i id="appsicon"  class="fas fa-th-list"></i>
-				<div id="apps" class="apps">
-					<div class="bigpart2">
-						<i class="bigicon2 cl fab fa-youtube"></i>
-						<div>YouTube TV</div>
-					</div>
-					<hr>
-					<div class="bigpart2">
-						<i class="bigicon2 cl fab fa-youtube"></i>
-						<div>YouTube Music</div>
-					</div>
-					<div class="bigpart2">
-						<i class="bigicon2 cl fab fa-youtube"></i>
-						<div>YouTube Kids</div>
-					</div>
-					<hr>
-					<div class="bigpart2">
-						<i class="bigicon2 cl fab fa-youtube"></i>
-						<div>Creator Academy</div>
-					</div>
-					<div class="bigpart2">
-						<i class="bigicon2 cl fab fa-youtube"></i>
-						<div>YouTube for Artists</div>
+				<div class="not">
+					<i id="appsicon" class="fas fa-th-list"></i>
+					<div id="apps" class="apps">
+						<div class="bigpart2">
+							<i class="bigicon2 cl fab fa-youtube"></i>
+							<div>YouTube TV</div>
+						</div>
+						<hr />
+						<div class="bigpart2">
+							<i class="bigicon2 cl fab fa-youtube"></i>
+							<div>YouTube Music</div>
+						</div>
+						<div class="bigpart2">
+							<i class="bigicon2 cl fab fa-youtube"></i>
+							<div>YouTube Kids</div>
+						</div>
+						<hr />
+						<div class="bigpart2">
+							<i class="bigicon2 cl fab fa-youtube"></i>
+							<div>Creator Academy</div>
+						</div>
+						<div class="bigpart2">
+							<i class="bigicon2 cl fab fa-youtube"></i>
+							<div>YouTube for Artists</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div  class="not">
-				<i id="notificationicon" class="fas fa-bell"></i>
-				<div id="notification" class="notification">
-					<div class="no1">
-						<div>Notifications</div>
-						<i class="fas fa-cog"></i>
-					</div>
-					<div class="no2">
-						<i class="bigbig fas fa-bell"></i>
-						<div class="t1">Your notifications live here</div>
-						<div class="t2">Subscribe to your favourite channels to receive notifications about their latest videos.</div>
+				<div class="not">
+					<i id="notificationicon" class="fas fa-bell"></i>
+					<div id="notification" class="notification">
+						<div class="no1">
+							<div>Notifications</div>
+							<i class="fas fa-cog"></i>
+						</div>
+						<div class="no2">
+							<i class="bigbig fas fa-bell"></i>
+							<div class="t1">Your notifications live here</div>
+							<div class="t2">
+								Subscribe to your favourite channels to receive notifications
+								about their latest videos.
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div  class="user1 not">
-				<i id="accounticon" class="fas fa-user-circle"></i>
-				<div id ='account' class="account">
-					<div class="f1">
-						<div class="uslogo">
-							
+				<div class="user1 not">
+					<i id="accounticon" class="fas fa-user-circle"></i>
+					<div id="account" class="account">
+						<div class="f1">
+							<div class="uslogo"></div>
+							<div>
+								<div class="un">UserName</div>
+								<div>example@gmai.com</div>
+								<a class="ua" href="">Manage your Google Account</a>
+							</div>
 						</div>
-						<div>
-							<div class="un">UserName</div>
-							<div>example@gmai.com</div>
-							<a class="ua" href="">Manage your Google Account</a>
+						<div class="f2">
+							<div class="nor">
+								<i class="bg fas fa-user"></i>
+								<div>Your channel</div>
+							</div>
+							<div class="nor">
+								<i class="bg fab fa-bitcoin"></i>
+								<div>Paid memberships</div>
+							</div>
+							<div class="nor">
+								<i class="bg fas fa-cog"></i>
+								<div>YouTube Studio</div>
+							</div>
+							<div class="sps">
+								<i class="bg fas fa-mars-double"></i>
+								<div>Switch account</div>
+								<i class="spsi fas fa-angle-right"></i>
+							</div>
+							<div class="nor">
+								<i class="bg fas fa-sign-out-alt"></i>
+								<div>Sign out</div>
+							</div>
 						</div>
-					</div>
-					<div class="f2">
-						<div class="nor">
-							<i class=" bg fas fa-user"></i>
-							<div>Your channel</div>
+						<div class="f2">
+							<div class="sps">
+								<i class="bg fas fa-sun"></i>
+								<div>Dark theme: Off</div>
+								<i class="spsi fas fa-angle-right"></i>
+							</div>
+							<div class="sps">
+								<i class="bg fas fa-language"></i>
+								<div>Langugage: English</div>
+								<i class="spsi fas fa-angle-right"></i>
+							</div>
+							<div class="sps">
+								<i class="bg fas fa-globe"></i>
+								<div>Location: Japan</div>
+								<i class="spsi fas fa-angle-right"></i>
+							</div>
+							<div class="nor">
+								<i class="bg fas fa-cog"></i>
+								<div>Settings</div>
+							</div>
+							<div class="nor">
+								<i class="bg fas fa-shield-alt"></i>
+								<div>Your data in YouTube</div>
+							</div>
+							<div class="nor">
+								<i class="bg fas fa-question-circle"></i>
+								<div>Help</div>
+							</div>
 						</div>
-						<div class='nor'>
-							<i class=" bg fab fa-bitcoin"></i>
-							<div>Paid memberships</div>
+						<div class="ens">
+							<div>Restricted Mode: Off</div>
+							<i class="fas fa-angle-right"></i>
 						</div>
-						<div class='nor'>
-							<i class="bg fas fa-cog"></i>
-							<div>YouTube Studio</div>
-						</div>
-						<div class="sps">
-							<i class=" bg fas fa-mars-double"></i>
-							<div>Switch account</div>
-							<i class="spsi fas fa-angle-right"></i>
-						</div>
-						<div class='nor'>
-							<i class="bg fas fa-sign-out-alt"></i>
-							<div>Sign out</div>
-						</div>
-					</div>
-					<div class="f2">
-						<div class="sps">
-							<i class="bg fas fa-sun"></i>
-							<div>Dark theme: Off</div>
-							<i class="spsi fas fa-angle-right"></i>
-						</div>
-						<div class="sps">
-							<i class="bg fas fa-language"></i>
-							<div>Langugage: English</div>
-							<i class="spsi fas fa-angle-right"></i>
-						</div>
-						<div class="sps">
-							<i class="bg fas fa-globe"></i>
-							<div>Location: Japan</div>
-							<i class="spsi fas fa-angle-right"></i>
-						</div>
-						<div class='nor'>
-							<i class="bg fas fa-cog"></i>
-							<div>Settings</div>
-						</div>
-						<div class='nor'>
-							<i class="bg fas fa-shield-alt"></i>
-							<div>Your data in YouTube</div>
-						</div>
-						<div class='nor'>
-							<i class="bg fas fa-question-circle"></i>
-							<div>Help</div>
-						</div>
-					</div>
-					<div class="ens">
-						<div>Restricted Mode: Off</div>
-						<i class=" fas fa-angle-right"></i>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-	<!-- main body -->
-	<div class="main">
-		<!-- small head bar -->
-		<div id='smallsidebar' class="sidebarsmall">
-			<div class="smallpart active">
-				<div>
-					<i class="fas fa-home iconbar"></i>
-				</div>
-				<div>Home</div>
-			</div>
-			<div class="smallpart">
-				<i class="fas fa-fire iconbar"></i>
-				<div>Trending</div>
-			</div>
-			<div class="smallpart">
-				<i class="fab fa-youtube iconbar"></i>
-				<div>Subsciptions</div>
-			</div>
-			<div class="smallpart">
-				<i class="fas fa-book iconbar"></i>
-				<div>Library</div>
 			</div>
 		</div>
-		<!-- ----------big side bar -->
-		<div id='bigsidebar' class="sidebarbig">
-			<div class="part1">
-				<div class='bigpart active2'>
-				<div class="bigicon"><i class="  fas fa-home"></i></div>
-				<div>Home</div>
-			</div>
-			<div class='bigpart'>
-				<div class="bigicon"><i class=" fas fa-fire"></i></div>
-				<div>Trending</div>
-			</div>
-			<div class='bigpart'>
-				<div class="bigicon"><i class=" fab fa-youtube"></i></div>
-				<div>Subsciptions</div>
-			</div>
-			</div>
-			
-			<div class="part2">
-				<div class='bigpart'>
-				<i class="bigicon fas fa-book"></i>
-				<div>Library</div>
-			</div>
-			<div class='bigpart'>
-				<i class="bigicon fas fa-history"></i>
-				<div>History</div>
-			</div>
-			<div class='bigpart'>
-				<i class="bigicon fas fa-file-video"></i>
-				<div>Yours videos</div>
-			</div>
-			<div class='bigpart'>
-				<i class="bigicon fas fa-clock"></i>
-				<div>Watch later</div>
-			</div>
-			<div class='bigpart'>
-				<i class="bigicon fas fa-thumbs-up"></i>
-				<div>Liked videos</div>
-			</div>
-			<div class='bigpart'>
-				<i class="bigicon fas fa-chevron-down"></i>
-				<div>Show more</div>
-			</div>
-			</div>
-			
-			<div class="part2">
-				<div>
-					<div class="bigpart">SUBSCRIPTIONS</div>
-					<div class='bigpart'>
-						<div class=" bigicon avatar1"></div>
-						<div>CodersX</div>
+		<!-- main body -->
+		<div class="main">
+			<!-- small head bar -->
+			<div id="smallsidebar" class="sidebarsmall">
+				<div class="smallpart active">
+					<div>
+						<i class="fas fa-home iconbar"></i>
 					</div>
-					<div class='bigpart'>
-						<div class="bigicon avatar1"></div>
-						<div>CodersX</div>
+					<div>Home</div>
+				</div>
+				<div class="smallpart">
+					<i class="fas fa-fire iconbar"></i>
+					<div>Trending</div>
+				</div>
+				<div class="smallpart">
+					<i class="fab fa-youtube iconbar"></i>
+					<div>Subsciptions</div>
+				</div>
+				<div class="smallpart">
+					<i class="fas fa-book iconbar"></i>
+					<div>Library</div>
+				</div>
+			</div>
+			<!-- ----------big side bar -->
+			<div id="bigsidebar" class="sidebarbig">
+				<div class="part1">
+					<div class="bigpart active2">
+						<div class="bigicon"><i class="fas fa-home"></i></div>
+						<div>Home</div>
 					</div>
-					<div class='bigpart'>
-						<div class="bigicon avatar1"></div>
-						<div>CodersX</div>
+					<div class="bigpart">
+						<div class="bigicon"><i class="fas fa-fire"></i></div>
+						<div>Trending</div>
 					</div>
-					<div class='bigpart'>
-						<div class="bigicon avatar1"></div>
-						<div>CodersX</div>
+					<div class="bigpart">
+						<div class="bigicon"><i class="fab fa-youtube"></i></div>
+						<div>Subsciptions</div>
 					</div>
-					<div class='bigpart'>
+				</div>
+
+				<div class="part2">
+					<div class="bigpart">
+						<i class="bigicon fas fa-book"></i>
+						<div>Library</div>
+					</div>
+					<div class="bigpart">
+						<i class="bigicon fas fa-history"></i>
+						<div>History</div>
+					</div>
+					<div class="bigpart">
+						<i class="bigicon fas fa-file-video"></i>
+						<div>Yours videos</div>
+					</div>
+					<div class="bigpart">
+						<i class="bigicon fas fa-clock"></i>
+						<div>Watch later</div>
+					</div>
+					<div class="bigpart">
+						<i class="bigicon fas fa-thumbs-up"></i>
+						<div>Liked videos</div>
+					</div>
+					<div class="bigpart">
 						<i class="bigicon fas fa-chevron-down"></i>
-						<div>Show 10 more</div>
+						<div>Show more</div>
 					</div>
 				</div>
+
+				<div class="part2">
+					<div>
+						<div class="bigpart">SUBSCRIPTIONS</div>
+						<div class="bigpart">
+							<div class="bigicon avatar1"></div>
+							<div>CodersX</div>
+						</div>
+						<div class="bigpart">
+							<div class="bigicon avatar1"></div>
+							<div>CodersX</div>
+						</div>
+						<div class="bigpart">
+							<div class="bigicon avatar1"></div>
+							<div>CodersX</div>
+						</div>
+						<div class="bigpart">
+							<div class="bigicon avatar1"></div>
+							<div>CodersX</div>
+						</div>
+						<div class="bigpart">
+							<i class="bigicon fas fa-chevron-down"></i>
+							<div>Show 10 more</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="part2">
+					<div>
+						<div class="bigpart">MORE FROM YOUTUBE</div>
+						<div class="bigpart">
+							<i class="bigicon fab fa-youtube"></i>
+							<div>YouTube Premium</div>
+						</div>
+						<div class="bigpart">
+							<i class="bigicon fas fa-film"></i>
+							<div>Movies & shows</div>
+						</div>
+						<div class="bigpart">
+							<i class="bigicon fas fa-gamepad"></i>
+							<div>Gaming</div>
+						</div>
+						<div class="bigpart">
+							<i class="bigicon fas fa-podcast"></i>
+							<div>Live</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="part2">
+					<div class="bigpart">
+						<i class="bigicon fas fa-cog"></i>
+						<div>Setting</div>
+					</div>
+					<div class="bigpart">
+						<i class="bigicon fas fa-flag"></i>
+						<div>Report history</div>
+					</div>
+					<div class="bigpart">
+						<i class="bigicon fas fa-question-circle"></i>
+						<div>Help</div>
+					</div>
+					<div class="bigpart">
+						<i class="bigicon fas fa-comment-alt"></i>
+						<div>Send feedback</div>
+					</div>
+				</div>
+
+				<div class="ab">
+					<a href="#">About</a>
+					<a href="#">Press</a>
+					<a href="#">Copyright</a>
+					<a href="#">Contact us</a>
+					<a href="#">Creators</a>
+					<a href="#">Advertise</a>
+					<a href="#">Developers</a>
+					<div class="copy">&copy; 2020 Google LLC</div>
+				</div>
 			</div>
-			
-			<div class="part2">
+			<!--  content -->
+			<div class="content">
+				<div class="recommend">Recommended</div>
 				<div>
-					<div class="bigpart">MORE FROM YOUTUBE</div>
-					<div class='bigpart'>
-						<i class=" bigicon fab fa-youtube"></i>
-						<div>YouTube Premium</div>
+					<div class="grid-container">
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+							<div class="imageitem"></div>
+							<div class="des">
+								<div class="userlogo"></div>
+								<div class="info">
+									<div class="name">How to watch videos on Youtube</div>
+									<div class="user">
+										<div>
+											G Entertainment <i class="fas fa-check-circle"></i>
+										</div>
+										<div class="view">
+											<div>60K views &#183;</div>
+											<div class="time">4 months ago</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class='bigpart'>
-						<i class=" bigicon fas fa-film"></i>
-						<div>Movies & shows</div>
-					</div>
-					<div class='bigpart'>
-						<i class="bigicon fas fa-gamepad"></i>
-						<div>Gaming</div>
-					</div>
-					<div class='bigpart'>
-						<i class="bigicon fas fa-podcast"></i>
-						<div>Live</div>
-					</div>
 				</div>
-			</div>
-			
-			<div class="part2">
-				<div class='bigpart'>
-					<i class="bigicon fas fa-cog"></i>
-					<div>Setting</div>
-				</div>
-				<div class='bigpart'>
-					<i class="bigicon fas fa-flag"></i>
-					<div>Report history</div>
-				</div>
-				<div class='bigpart'>
-					<i class="bigicon fas fa-question-circle"></i>
-					<div>Help</div>
-				</div>
-				<div class='bigpart'>
-					<i class="bigicon fas fa-comment-alt"></i>
-					<div>Send feedback</div>
-				</div>
-			</div>
-			
-			<div class="ab">
-				<a href="#">About</a>
-				<a href="#">Press</a>
-				<a href="#">Copyright</a>
-				<a href="#">Contact us</a>
-				<a href="#">Creators</a>
-				<a href="#">Advertise</a>
-				<a href="#">Developers</a>
-				<div class="copy">&copy; 2020 Google LLC</div>
 			</div>
 		</div>
-		<!--  content -->
-		<div class="content">
-			<div class="recommend">Recommended</div>
-			<div>
-				<div class="grid-container">
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				 <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  <div class="grid-item">
-				  	<div class="imageitem">
-				  	</div>
-				  	<div class="des">
-				  		<div class="userlogo"></div>
-				  		<div class="info">
-				  			<div class='name'>How to watch videos on Youtube</div>
-				  			<div class="user">
-				  				<div>G Entertainment <i class="fas fa-check-circle"></i></div>
-				  				<div class="view">
-				  					<div>60K views  &#183;</div>
-				  					<div class="time">4 months ago</div>
-				  				</div>
-				  			</div>
-				  		</div>
-
-				  	</div>
-				  </div>
-
-				  
-				</div>
-			</div>
-		</div>
-	</div>
-<script src="js.js"></script>
-</body>
+		<script src="js.js"></script>
+	</body>
 </html>
