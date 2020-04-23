@@ -5,5 +5,5 @@ This is a small project express results of [CodersX](https://coders-x.com/)'s Pr
 ## Deployment
 
 The site is deployed to Firebase Hosting for live launching.
-Click on the link below to see how it works__
+Click on the link below to see how it works <br />
 https://css-project-e7fe1.web.app/
